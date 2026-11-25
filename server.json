@@ -1,0 +1,34 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.mailing-engineer/mcp",
+  "title": "Mailing Engineer",
+  "description": "EU-hosted 60-tool Remote MCP Server for e-commerce email marketing, Amazon SES deliverability, DNS alignment (SPF/DKIM/DMARC/BIMI), Shopify & WooCommerce sync, AI newsletter studio, and automated flows.",
+  "version": "1.0.0",
+  "websiteUrl": "https://mailing-engineer.com/mcp/docs",
+  "repository": {
+    "url": "https://github.com/mailing-engineer/mailing-engineer-mcp",
+    "source": "github"
+  },
+  "icons": [
+    {
+      "src": "https://mailing-engineer.com/logo-512.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "512x512"
+      ]
+    },
+    {
+      "src": "https://mailing-engineer.com/favicon-96x96.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "96x96"
+      ]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mailing-engineer.com/mcp"
+    }
+  ]
+}
